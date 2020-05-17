@@ -88,10 +88,16 @@ from hello.hello import *
 # Publish to PyPI
 
 ## 1. Building Package
+```
 python setup.py sdist bdist_wheel
+```
 
 ## 2. Check Distribution
+```
 twine check dist/*
+```
 
 ## 3. Upload to PyPI
+```
 twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+```
