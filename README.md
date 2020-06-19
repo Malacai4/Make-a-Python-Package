@@ -2,14 +2,16 @@
 This repository will teach you how to make python packages, and upload them to 'pypi.org'!
 
 ## Directory Structure
+```
 hello/
   setup.py
   README.md
   LICENSE
   MANIFEST.in
   hello/
-    ```__init__.py```
+    __init__.py
     hello.py
+```
     
 ## 1. setup.py
 ```python
@@ -80,7 +82,7 @@ Copy this text into your MANIFEST.in file.
 include README.md LICENSE
 ```
 
-## 5. '__init__.py'
+## 5. ```__init__.py```
 ```python
 from hello.hello import *
 ```
