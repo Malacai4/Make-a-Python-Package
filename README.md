@@ -80,7 +80,7 @@ Copy this text into your MANIFEST.in file.
 include README.md LICENSE
 ```
 
-## 5. __init__.py
+## 5. '__init__.py'
 ```python
 from hello.hello import *
 ```
